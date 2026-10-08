@@ -27,4 +27,3 @@ while progress:
         print("A  DIGITAL MONITORING SYSTEM FOR TEMPERATURE")
     finally:
         print("============================================")
-        
