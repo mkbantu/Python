@@ -25,3 +25,7 @@ for letter in string:
 numbers = [2, 7, 10, 16, 23, 54]
 squared_numbers = [num ** 2 for num in numbers]
 print(squared_numbers)
+#example 6: Given the float_list = [2.5, 16.42, 10.77, 8.3, 34.21] print how many numbers are less than 10.
+float_list = [2.5, 16.42, 10.77, 8.3, 34.21]
+count = sum(1 for num in float_list if num < 10)
+print(count)
