@@ -1,4 +1,4 @@
-"""def number(a,b):
+def number(a,b):
     if (a>b):
         return a
     else:
@@ -7,13 +7,17 @@ m=4
 n=3
 result= number(m,n)
 print(result)
+
 def summation(list):
     sum=0
     for i in list:
         sum+=i
     print(sum)
+
+    
 list_1=[8,2,3,0,7]
-summation(list_1)"""
+summation(list_1)
+
 def multiple(num):
     sum=0
     limit=int(input("Enter the limit: "))
